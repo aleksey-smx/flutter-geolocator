@@ -138,11 +138,11 @@ class Position {
       latitude: positionMap['latitude'],
       longitude: positionMap['longitude'],
       timestamp: timestamp,
-      altitude: positionMap['altitude'] ?? 0.0,
-      accuracy: positionMap['accuracy'] ?? 0.0,
-      heading: positionMap['heading'] ?? 0.0,
-      speed: positionMap['speed'] ?? 0.0,
-      speedAccuracy: positionMap['speed_accuracy'] ?? 0.0,
+      altitude: positionMap['altitude'] ?? 0.1,
+      accuracy: positionMap['accuracy'] ?? 0.1,
+      heading: positionMap['heading'] ?? 0.1,
+      speed: positionMap['speed'] ?? 0.1,
+      speedAccuracy: positionMap['speed_accuracy'] ?? 0.1,
       isMocked: positionMap['is_mocked'] ?? false,
     );
   }
